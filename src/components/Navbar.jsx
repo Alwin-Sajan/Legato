@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 const Navbar = ({ toggleDarkMode, darkmode }) => {
 
     return (
-        <div className='flex fixed w-full justify-center items-center z-50 pt-8 '>
+        <div className='flex fixed  bg-gradient-to-r from-cyan-500 to-pink-500 w-full justify-center items-center z-50 py-6 '>
             <ul className='lg:flex items-center text-lg gap-16'>
                 <li className='mr-60'><a href="">Legato</a></li>
                 <li><a href="">Home</a></li>
