@@ -5,6 +5,7 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 import { motion } from "framer-motion"
 import Features from './components/Features';
+import Reveal from './components/Reveal';
 
 const App = () => {
   const [darkmode, setdarkmode] = useState(true);
@@ -13,12 +14,12 @@ const App = () => {
   }
   return (
     <div className={`w-full overflow-hidden relative h-auto min-h-screen ${darkmode ? 'bg-black text-white ' : 'bg-white text-black '}`}>
-      <img src={darkmode ? "https://img.freepik.com/free-vector/hexagonal-black-background-modern-design_1017-37442.jpg" : back} className='fixed bg-slate-500 opacity-60 w-full z-20' alt="" />
+      <img src={darkmode ? "https://img.freepik.com/free-vector/hexagonal-black-background-modern-design_1017-37442.jpg" : back} className='fixed bg-slate-500 opacity-60 w-full z-20' alt="" />      
       <div className='relative z-30'>
 
         <Navbar darkMode={darkmode} toggleDarkMode={toggleDarkMode} />
         <div className='grid justify-center h-[50vh] pt-36 font-semibold text-7xl'>
-          Legato
+        <Reveal>Legato</Reveal>
         </div>
 
         <Features darkmode={darkmode} />
@@ -31,6 +32,7 @@ const App = () => {
         <Footer />
 
       </div>
+      
     </div>
   )
 }
