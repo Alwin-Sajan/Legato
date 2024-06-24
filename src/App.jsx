@@ -18,10 +18,13 @@ const App = () => {
       <img src={darkmode ? "https://img.freepik.com/free-vector/hexagonal-black-background-modern-design_1017-37442.jpg" : back} className='fixed bg-slate-500 opacity-60 w-full z-20' alt="" />
 
       <div className={`ml-[10vw] mt-[10vh] rounded w-[80vw] h-[80vh] glass fixed z-50 ${demo ? "block" : 'hidden'}`}>
-        <div className='flex h-full p-8 relative'>
+        <div className='flex p-8 relative'>
           <h3 className='text-4xl relative text-black'>Demo Video</h3>
           <button type="button" className='bg-[red] absolute right-1 h-16 p-4 rounded mx-60' onClick={() => setDemo(!demo)}>X</button>
         </div>
+        <iframe width="980" height="360" className='mx-12 rounded mt-4'
+          src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
       </div>
       <div className={`${demo ? "opacity-80 " : ""} relative z-30`}>
 
