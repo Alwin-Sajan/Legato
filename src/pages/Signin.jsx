@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom'
 
 const Signin = () => {
     return (
-        <div className="h-screen w-full grid justify-center py-[4rem] bg-gradient-to-r from-cyan-500 to-pink-500">
-            <Link to="/" className='text-center text-3xl text-white font-semibold mb-4'>Legato</Link>
-            <div className="m-auto h-[25rem] w-[23rem] bg-black text-gray-200 rounded-xl">
+        <div className="h-screen w-full grid justify-center py-[4rem] relative ">
+            <img src="https://img.freepik.com/free-vector/hexagonal-black-background-modern-design_1017-37442.jpg" className='fixed bg-black w-full z-0' alt="background" />
+            <Link to="/" className='text-center text-3xl text-white font-semibold mb-4 relative z-10'>Legato</Link>
+            <div class="m-auto opacity-100 h-[25rem] w-[23rem] bg-black relative z-10 text-gray-200 rounded-xl">
                 <h1 className="pb-5 text-center text-3xl font-bold pt-10">Sign in</h1>
                 <div className="mx-auto w-[18rem]">
                     <div className=" flex  flex-col">
