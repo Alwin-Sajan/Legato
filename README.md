@@ -7,21 +7,31 @@ To run the project locally, follow these steps:
     ```sh
     git clone https://github.com/Alwin-Sajan/Legato.git
     ```
-   
+
 2. **Navigate to the Project Directory**
     ```sh
     cd Legato
     ```
 
-3. **Install Dependencies**
+ 
+ ### To run Frontend 
+
+1. **Navigate to the client folder named "Legato"**
+   ```sh
+   cd Legato
+   ```
+   
+2. **Install Dependencies**
     ```sh
     npm install
     ```
 
-4. **Start the Development Server**
+3. **Start the Development Server**
     ```sh
     npm run dev
     ```
+
+
 
 By following these steps, the project will be set up on your local machine, and you can start the development server to view the website locally.
 
