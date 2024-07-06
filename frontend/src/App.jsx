@@ -64,15 +64,15 @@ const App = () => {
                 <img src="https://thumbs.dreamstime.com/b/community-concept-pictogram-showing-figures-happy-family-84451213.jpg" className='w-60 h-60 mt-20 ' alt="community image" />
             </div>
 
-            <h3 className='text-xl py-4 font-medium'>With Legato, you can:</h3>
+            <h3 className='text-xl py-4 pt-8 font-medium'>With Legato, you can:</h3>
 
-            <ul className='pl-4 gap-2 grid'>
+            <ul className='pl-4 gap-4 flex row-span-3  py-8'>
 
-              <li>Browse upcoming events and RSVP with ease.</li>
-              <li>Discover new clubs and organizations that align with your interests.</li>
-              <li>Connect with fellow students who share your passions.</li>
-              <li>Stay updated on important college announcements and initiatives.</li>
-              <li>Share your achievements and gain recognition from the college community.</li>
+              <li className='flex justify-center items-center p-8 h-60 w-60 bg-black rounded-md'>Browse upcoming events and RSVP with ease.</li>
+              <li className='flex justify-center items-center p-8 h-60 w-60 bg-black rounded-md'>Discover new clubs and organizations that align with your interests.</li>
+              <li className='flex justify-center items-center p-8 h-60 w-60 bg-black rounded-md'>Connect with fellow students who share your passions.</li>
+              <li className='flex justify-center items-center p-8 h-60 w-60 bg-black rounded-md'>Stay updated on important college announcements and initiatives.</li>
+              <li className='flex justify-center items-center p-8 h-60 w-60 bg-black rounded-md'>Share your achievements and gain recognition from the college community.</li>
 
             </ul>
 
