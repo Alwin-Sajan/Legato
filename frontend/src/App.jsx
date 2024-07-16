@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import { motion } from "framer-motion"
 import Features from './components/Features';
 import Reveal from './components/Reveal';
+import { Link } from 'react-router-dom'
 
 const App = () => {
   const [darkmode, setdarkmode] = useState(true);
@@ -59,14 +60,14 @@ const App = () => {
                   <li><strong>Community Building:</strong> Stay informed about college-wide events and initiatives. Legato fosters a sense of community by showcasing all the exciting happenings on campus, making you feel more connected to the college spirit.</li>
                   <li><strong>Achievement Showcase:</strong> Proud of your accomplishments? Share your academic achievements, awards, or club milestones on Legato. Celebrate your success and inspire others!</li>
                 </ul>
-                </div>
+              </div>
 
-                <img src="https://thumbs.dreamstime.com/b/community-concept-pictogram-showing-figures-happy-family-84451213.jpg" className='w-60 h-60 mt-20 ' alt="community image" />
+              <img src="https://thumbs.dreamstime.com/b/community-concept-pictogram-showing-figures-happy-family-84451213.jpg" className='w-60 h-60 mt-20 ' alt="community image" />
             </div>
 
             <h3 className='text-xl py-4 pt-8 font-medium'>With Legato, you can:</h3>
 
-            <ul className='pl-4 gap-4 flex row-span-3  py-8'>
+            <ul className='pl-4 gap-4 flex row-span-3 max-md:overflow-x-auto customscroll py-8'>
 
               <li className='flex justify-center items-center p-8 h-60 w-60 bg-black rounded-md'>Browse upcoming events and RSVP with ease.</li>
               <li className='flex justify-center items-center p-8 h-60 w-60 bg-black rounded-md'>Discover new clubs and organizations that align with your interests.</li>
@@ -79,9 +80,12 @@ const App = () => {
             <p className='py-4'>
               Legato is your gateway to a more engaged and fulfilling college experience. We empower you to explore your interests, connect with like-minded individuals, and contribute to the vibrant campus life.
             </p>
-            <strong>Join Legato today and become an active part of your college community!</strong>
 
 
+          </div>
+          <div className='py-8 w-2/3 mx-auto flex justify-center items-center rounded-2xl bg-black mt-32'>
+            <h3 className=''>Join Legato today and become an active part of your college community!</h3>
+            <button className='hover:bg-slate-800 border-white border-2 px-4 rounded-2xl outline-none py-1 ml-4'><Link to="/signin">Join us</Link> </button>
           </div>
         </div>
 

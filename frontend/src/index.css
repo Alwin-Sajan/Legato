@@ -10,3 +10,16 @@
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.customscroll{
+    scroll-behavior: calc(200);
+    scrollbar-color: black transparent;
+    scrollbar-width:auto;
+    
+    /* scroll-padding: 50px; */
+    /* scrollbar-shadow-color: blueviolet; */
+    /* scrollbar-base-color: black; */
+    scrollbar-arrow-color:transparent;
+    /* scrollbar-face-color: transparent; */
+    
+
+}
