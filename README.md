@@ -13,20 +13,7 @@ To run the project locally, follow these steps:
     cd Legato
     ```
 
- 
- ### To run Frontend 
-
-1. **Navigate to the client folder named "Legato"**
-   ```sh
-   cd Legato
-   ```
-   
-2. **Install Dependencies**
-    ```sh
-    npm install
-    ```
-
-3. **Start the Development Server**
+3. **Start the Development **
     ```sh
     npm run dev
     ```
@@ -38,4 +25,8 @@ By following these steps, the project will be set up on your local machine, and 
 ### Technologies Used
 - **React Js**: A JavaScript library for building user interfaces.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Node js**
+- **Express js**
+- **MongoDB**
+- **Vite**  
 
